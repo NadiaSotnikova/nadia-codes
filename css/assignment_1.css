@@ -1,0 +1,10 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  color: #4b3b47;
+}
+body {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 8%;
+  background-color: #f6e7cb;
+}
