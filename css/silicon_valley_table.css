@@ -5,8 +5,8 @@ table {
 
 th {
   height: 32px;
-  background-color: #f61067;
-  color: #f4f4ed;
+
+  color: #000000;
 }
 
 th,
@@ -21,7 +21,7 @@ td {
 }
 
 tr:hover {
-  background-color: #f5f5f5;
+  background-color: #fffaff;
 }
 
 .table-block {
@@ -30,18 +30,60 @@ tr:hover {
   margin-bottom: 100px;
 }
 
+.header {
+  text-align: center;
+  margin-top: 100px;
+}
+
 .h1 {
+  font-size: 36px;
 }
 
 .photo {
-  max-width: 150px;
+  max-width: 100px;
   border-radius: 50%;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .nutshell {
   max-width: 100px;
+  margin-bottom: 24px;
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+
+  color: #000000;
+  border-bottom: 2px solid;
+  border-color: #441151;
+}
+
+a:focus {
+  background: #441151;
+  color: #fffaff;
+}
+
+a:hover {
+  background: #441151;
+  color: #fffaff;
+}
+
+.footer {
+  height: 48px;
+  background-color: #441151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #fffaff;
+  font-size: 14px;
 }
