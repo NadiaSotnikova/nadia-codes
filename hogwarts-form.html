@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hogwarts Registration</title>
+  </head>
+
+  <body>
+    <h1>Welcome to Hogwarts!</h1>
+    <h3>Please fill out our registration form.</h3>
+
+    <form>
+      <div>
+        <label
+          >Wizard Name:
+          <input type="text" placeholder="wizard name" />
+        </label>
+
+        <label
+          >Password:
+          <input type="password" placeholder="password" />
+        </label>
+      </div>
+
+      <div>
+        <label for="female">Female: </label>
+        <input name="gender" value="female" id="female" type="radio" />
+
+        <label for="male">Male: </label>
+        <input name="gender" value="male" id="male" type="radio" />
+
+        <label for="Non-binary">Non-binary: </label>
+        <input name="gender" value="non-binary" id="non-binary" type="radio" />
+      </div>
+
+      <div>
+        <label for="birthday">Birthday: </label>
+        <select id="birthday" name="month" placeholder="month">
+          <option>January</option>
+          <option>February</option>
+          <option>March</option>
+        </select>
+
+        <select name="day" placeholder="day">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select>
+
+        <select name="year" placeholder="year">
+          <option>1993</option>
+          <option>1992</option>
+          <option>1991</option>
+          <option>1990</option>
+          <option>1989</option>
+          <option>1988</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="owlmail">Owl Mail: </label>
+        <input
+          name="owl mail"
+          placeholder="owl mail"
+          id="owlmail"
+          type="email"
+        />
+      </div>
+
+      <div>
+        <label for="terms&conditions"
+          >I agree to the terms and conditions:
+        </label>
+        <input name="terms&conditions" id="terms&conditions" type="checkbox" />
+      </div>
+
+      <div class="button">
+        <button type="submit">Alohamora!</button>
+      </div>
+    </form>
+  </body>
+</html>
