@@ -1,0 +1,13 @@
+img {
+  width: 30%;
+  max-height: 300px;
+  object-fit: cover;
+  float: left;
+  margin: 1.66%;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  margin-left: 1.66%;
+  margin-top: 2.8%;
+}
