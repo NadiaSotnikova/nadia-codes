@@ -1,6 +1,6 @@
-image {
-  height: 300px;
-  width: 300px;
+.image {
+  height: 29vw;
+  width: 29vw;
   float: left;
   margin: 1.66%;
   background-size: cover;
