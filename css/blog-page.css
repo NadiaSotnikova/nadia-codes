@@ -1,0 +1,36 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.page-container {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 96px;
+  border: 16px solid #ebebeb;
+  padding: 64px;
+}
+
+.post-wrapper {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.date {
+  text-transform: uppercase;
+  color: #969696;
+  font-weight: bold;
+}
+
+.block-quote {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  border-left: 8px solid #b700ff;
+  padding: 16px;
+  background-color: #000000;
+}
